@@ -1,0 +1,35 @@
+<html>
+<head>
+<script type = "text/javascript">
+
+	function check(){
+		var ob = false;
+
+		ob = new XMLHttpRequest();
+		
+		n1 = document.getElementById("pass").value;
+
+		ob.open("GET","seta2.php?n1=" + n1,true);
+		ob.send();
+
+		ob.onreadystatechange = function(){
+			if(ob.readyState == 4 && ob.status == 200){
+				document.getElementById("i").innerHTML = ob.responseText;
+			} 
+		}
+
+		
+	}
+</script>
+</head>
+<body>
+
+
+Enter a name
+<input type = "text" name = "n1" id = "pass">
+<br>
+<input type = "button" value = "submit" onclick = "check()">
+
+<span id = "i"></span>
+</body>
+</html>

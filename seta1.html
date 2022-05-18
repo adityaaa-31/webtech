@@ -1,0 +1,54 @@
+<html>
+<head>
+<style>
+span
+{
+                font-size: 25px;
+}
+table
+{
+                color: blueviolet; 
+}
+</style>
+
+<script type = "text/javascript">
+
+	function printfile(){
+		var ob = false;
+		ob = new XMLHttpRequest();
+		
+		ob.open("GET","seta1.php");
+		ob.send();
+
+		ob.onreadystatechange = function(){
+
+			if(ob.readyState == 4 && ob.status == 200){
+				document.getElementById("i").innerHTML = ob.responseText;
+                                // document.getElementById("i").innerHTML=ob.responseText;
+			}
+
+		}
+	
+	}
+</script>
+
+
+</head>
+<body>
+
+
+<center>
+	<h3> Display the content </h3>
+	<br>
+
+	<input type = "button" value = print onclick = "printfile()">
+	<br>
+	<span id = "i"></span>
+</center>
+
+</body>
+
+
+</html>
+
+
