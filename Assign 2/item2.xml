@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="item.css"?>
+<Item>
+<Item1>
+	<ItemName>Pen</ItemName>
+	<ItemPrice>10</ItemPrice>
+	<Quantity>5</Quantity>
+</Item1>
+
+<Item2>
+	<ItemName>Pencil</ItemName>
+	<ItemPrice>5</ItemPrice>
+	<Quantity>3</Quantity>
+</Item2>
+
+<Item3>
+	<ItemName>Scale</ItemName>
+	<ItemPrice>7</ItemPrice>
+	<Quantity>2</Quantity>
+</Item3>
+
+<Item4>
+	<ItemName>Book</ItemName>
+	<ItemPrice>30</ItemPrice>
+	<Quantity>1</Quantity>
+</Item4>
+
+<Item5>
+	<ItemName>Eraser</ItemName>
+	<ItemPrice>5</ItemPrice>
+	<Quantity>2</Quantity>
+</Item5>
+</Item>

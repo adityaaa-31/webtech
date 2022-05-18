@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<MovieInfo>
+
+	<MovieNo>1</MovieNo>
+	<MovieTitle>Batman</MovieTitle>
+	<ActorName>Christian Bale</ActorName>
+	<ReleaseYear>2012</ReleaseYear>
+
+	<MovieNo>2</MovieNo>
+	<MovieTitle>Revenant</MovieTitle>
+	<ActorName>DiCaprio</ActorName>
+	<ReleaseYear>2016</ReleaseYear>
+
+	<MovieNo>3</MovieNo>
+	<MovieTitle>Spiderman</MovieTitle>
+	<ActorName>Tom Holland</ActorName>
+	<ReleaseYear>2017</ReleaseYear>
+</MovieInfo>

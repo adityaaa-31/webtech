@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding ='UTF-8' ?>
+<bookinfo>
+	<books category="teaching">
+		<bookno>1</bookno>
+                <bookname>java</bookname>
+                <authorname>balguru swami</authorname>
+                <price>250</price>
+                <year>2006</year>
+        </books>
+        <books category="teaching">
+                <bookno>2</bookno>
+                <bookname>c</bookname>
+                <authorname>danis ritchie</authorname>
+                <price>500</price>
+                <year>1971</year>
+         </books>  
+</bookinfo>

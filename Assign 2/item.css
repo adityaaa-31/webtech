@@ -1,0 +1,18 @@
+ItemName{
+	color:blue;
+	font-family:Cooperplate Gothic Light;
+	font-size:16pt;
+	font:bold;
+}
+ItemPrice{
+	 color:yellow;
+	font-family:Arial;
+	font-size:17pt;
+	font:bold;
+}
+Quantity{
+	 color:red;
+	font-family:Arial;
+	font-size:12pt;
+	font:bold;
+}

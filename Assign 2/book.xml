@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<BookInfo>
+
+<Book>
+	<Bookno>1</Bookno>
+	<Bookname>PHP</Bookname>
+	<Authorname>Abhishek</Authorname>
+	<Price>500</Price>
+	<Year>2006</Year>
+</Book>
+<Book>
+	<Bookno>2</Bookno>
+	<Bookname>JAVA</Bookname>
+	<Authorname>Om Kamble</Authorname>
+	<Price>250</Price>
+	<Year>2001</Year>
+</Book>
+</BookInfo>
