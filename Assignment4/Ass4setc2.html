@@ -1,0 +1,82 @@
+<html>
+
+<head>
+
+<script>
+
+function showHint(str)
+
+{
+
+    if (str=="")
+
+    {
+
+        document.getElementById("mydiv").innerHTML = "";
+
+        return;
+
+    }
+
+    if(window.XMLHttpRequest)
+
+    {
+
+        obj=new XMLHttpRequest();
+
+    }
+
+    else
+
+    {
+
+        obj=new ActiveXObject("Microsoft.XMLHTTP");
+
+    }
+
+
+    obj.onreadystatechange = function(){
+        
+        if (obj.readyState == 4 && obj.status == 200)
+        {
+            document.getElementById("mydiv").innerHTML = obj.responseText;
+        }
+
+    }
+
+
+    obj.open("GET", "Ass4SetC2.php?q=" + str, true);
+
+
+    obj.send();
+
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<p><b>Book Name:</b></p>
+
+    <form>
+
+        <SELECT name="bname" onchange="showHint(this.value)">
+
+            <option value="">Select book</option>
+
+            <option value="MOE">MOE</option>
+
+            <option value="Java">Java</option>
+
+        </select>
+
+    </form>
+
+<div id="mydiv"><b> Book info......</b></div>
+
+</body>
+
+</html>

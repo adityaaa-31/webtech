@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+
+
+ 
+
+ 
+
+<bookinfo>
+
+ 
+
+<book code="B1">
+
+<bname>MOE</bname>
+
+<authorname>p.k.sinha</authorname>
+
+<year>2001</year>
+
+<price>100</price>
+
+</book>
+
+ 
+
+<book code="B2">
+
+<bname>Java</bname>
+
+<authorname>Alok pawar</authorname>
+
+<year>2001</year>
+
+<price>100</price>
+
+</book>
+
+ 
+
+</bookinfo>
